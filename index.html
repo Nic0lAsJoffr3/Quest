@@ -51,7 +51,7 @@
 
 <body>
   <nav id="sim"> 
-    <video  autoplay src="video.mp4" style="width: 100%;"></video>
+    <video  autoplay src="video.mp4" style="width: 100%;" id="vi"></video>
     </nav>
   <nav id="quest">
   <h1>Professor Elton Leão, você aceita ser o professor homenageado do 3°A?</h1>
@@ -80,6 +80,9 @@
       
   document.querySelector("#sim").style="display:block;"
   document.querySelector("#quest").style="display:none;"
+      
+  const videoo = document.querySelector("#vi");
+  videoo.play();
       
     }
     
